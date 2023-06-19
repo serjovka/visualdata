@@ -1,0 +1,63 @@
+
+.app{
+  position: relative;
+  min-height: 100vh;
+}
+
+.table-wrapper{
+  overflow-x: auto;
+}
+
+.input-file{
+  display: none;
+}
+.options-panel{
+  display: flex;
+  flex-direction: column;
+  max-width: 25rem;
+  height: 25rem;
+  padding: 1rem;
+  margin: auto auto;
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  background-color: white;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+.lc-tooltip{
+  position: absolute;
+  background-color: white;
+  border: 2px solid #30475e;
+  text-align: center;
+}
+.top-panel-button{
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0.2rem;
+  margin: auto auto;
+  color: white;
+  border: none;
+  margin: 0.1rem;
+}
+.drag-handle{
+  height: 1.5rem;
+  background-color: rgba(85, 96, 143, 1);
+  cursor: grabbing;
+  display: flex;
+  justify-content: start;
+  direction: rtl;
+} 
+.chart-wrapper{
+  position: absolute;
+  top: 0;
+  right: 0;
+  resize: both;
+}
+.title{
+  position: absolute;
+  left: 5px;
+  color: white;
+}
+.line-chart{
+  display: flex;
+}
